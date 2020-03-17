@@ -40,25 +40,20 @@
         <li>啦啦啦种太阳</li>
         <li>啦啦啦种太阳</li>
     </ul><br>
-
     <ol type="A" start="3">
         <li>种不了东西</li>
         <li>种不了东西</li>
         <li>种不了东西</li>
         <li>种不了东西</li>
     </ol><br>
-
     <dl>
         <dt><img src="./images/11.jpg" alt="" width="300" ></dt>
         <dd>美若天仙</dd>
     </dl><br>
-
     <a href="https://www.baidu.com" target="_blank" title="百度一下,你就知道">百度一下,你就知道</a><br>
     <a href="https://www.hao123.com" target="_self" title="hao123">hao123</a><br><br>
-
     <img src="./images/22.jpg" alt="草坪" title="草坪" width="300"><br>
     <img src="./images/2.jpg" alt="草坪" title="草坪" width="300"><br><br>  
-
     <h2>表格</h2>
     <table border="1" width="200" height="200">
         <tr>

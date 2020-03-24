@@ -59,3 +59,65 @@
            2个属性值的时候: 上下    左右
            3个属性值的时候: 上  左右  下
            4个属性值的时候: 上  右  下  左
+
+    5.用css实现一个三角形
+        颜色值为透明: transparent
+
+
+五.背景         background:;            复合属性(可以通过简写进行)
+            简写顺序(颜色,背景图,是否铺平,位置)
+            1.背景颜色:
+                background-color:;
+            2.背景图:
+                background-image:url(路径)
+                背景图显示状态:
+                a:背景图不占据空间
+                b:背景图大小小于容器大小时候,平铺到满为止
+                    等于的时候正好显示一张
+                    大于的时候显示一部分
+
+            3.控制背景图是否平铺
+                background-repeat:;
+                    属性值：     repeat      平铺
+                                no-repeat   不平铺
+                                repeat-x    横向平铺
+                                repeat-y    纵向平铺
+            4.控制背景图的位置:
+                background-position:;
+                    属性值:
+                        水平的位置(x轴) 和 垂直的位置(y轴)
+                        eg:left bottom      (左下角对齐)
+
+            5.背景图的固定
+                background-attachment:;
+                    属性值: fixed/scroll
+
+            6.背景图 与 html的 images的差别
+                背景图:网页渲染,不占据空间
+                img:html的结构,占据空间
+
+                Q:什么时候用img,什么时候用背景图呢?
+                    网页上看到的大图,都是用img导入的,小图标等是用css样式导入
+
+
+六.盒模型
+    css盒模型:  是王爷布局的基石!从里到外包括什么呢?
+            内容区  ->  填充区  ->  盒子边框    ->  外边距
+          (content)   (padding)    (border)      (margin)
+
+          A.padding的用法
+            1.padding是长在内容和盒子之间的,在盒子内部
+            2.padding是为了调整  子元素  和  父元素 里面位置关系
+            3.padding的特点:    padding 会把盒子撑大
+            4.如果想让盒子保持原来大小,需要宽高的基础上-padding值才可以
+            5.给单一方向设置判定值
+                padding-left/right/top/bottom
+            6.padding   设置方法:
+                padding:一个值      (四周都有表现)
+                        两个值      (上下,左右)
+                        三个值      (上,左右,下)
+                        四个值      (上,右,下,左)
+
+            7.padding   不能设置负值
+            8.padding   不会对背景图造成影响
+            9.如果一个盒子没有设置固定的宽高,添加padding是不用减的
